@@ -1,0 +1,138 @@
+/*
+ * overview_style.css for https://github.com/Naereen/uLogMe/
+ * MIT Licensed, https://lbesson.mit-license.org/
+*/
+body {
+    font-family: Ubuntu, Tahoma, sans-serif;
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: normal;
+    background-color: #D04414;
+    margin: 0;
+    padding: 20px;
+}
+    h1 a {
+        text-decoration: none;
+        color: white;
+    }
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+#content {
+    margin: 10px;
+}
+#wrap {
+    text-align: center;
+}
+#indexlink {
+    position: absolute;
+    font-size: 30px;
+    top: 25px;
+    right: 100px;
+    font-weight: normal;
+    /* font-family: Lato, sans-serif; */
+}
+    #indexlink a {
+        color: #FFF;
+    }
+#spinnerdiv {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+}
+#reloadbutton {
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    right: 20px;
+    top: 0px;
+    cursor: pointer;
+}
+.line {
+    fill: none;
+    stroke: #55F;
+    stroke-width: 2px;
+}
+#keystats {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.al {
+    float: left;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+.divkeys {
+    height: 16px;
+}
+.legenddiv p {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+.skipdrawyes {
+    text-decoration: line-through;
+    color: #999 !important;
+}
+.skipdrawno {
+    text-decoration: underline;
+}
+#keysummary, #timesummary {
+    display: inline-block;
+}
+    #keysummary text, #timesummary text {
+        font-family: Impact, Charcoal, sans-serif;
+        font-size: 20px;
+    }
+#summaries {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.linksfooter, .linksfooter a {
+    color: black;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+    .linksfooter a:hover {
+        text-decoration: underline;
+    }
+    
+    .linksfooter .love {
+      display: inline-block;
+      position: relative;
+      font-size: 1.5em;
+      color: #f95959;;
+      -webkit-transform: scale(.9);
+         -moz-transform: scale(.9);
+              transform: scale(.9);
+      -webkit-animation: love .5s infinite linear alternate-reverse;
+         -moz-animation: love .5s infinite linear alternate-reverse;
+              animation: love .5s infinite linear alternate-reverse;
+    }
+    
+    @-webkit-keyframes love {
+      to { -webkit-transform: scale(1.1); }
+    }
+    
+    @-moz-keyframes love {
+      to { -moz-transform: scale(1.1); }
+    }
+    
+    @keyframes love {
+      to { transform: scale(1.1); }
+    }
