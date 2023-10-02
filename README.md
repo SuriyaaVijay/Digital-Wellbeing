@@ -1,6 +1,7 @@
 # Digital-Wellbeing
 
 This project aims to bring the digital wellbeing and screen time management features, similar to those found in Samsung Android phones, to Linux operating systems. The project is primarily built using HTML, JavaScript, and Python, with additional programming in Shell and CSS.
+For further help refer [link](https://cs.stanford.edu/people/karpathy/ulogme/)
 
 ## Getting Started
 
